@@ -1,0 +1,109 @@
+.nutrition-container {
+  min-height: 100vh;
+  padding: 50px;
+
+  background-image: url("../assets/top-view-veggie-salad-bowls-with-couscous-copy-space.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.nutrition-form-card{
+    background: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    width: 50%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    
+}
+
+.nutrition-form h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.nutrition-form input,
+.nutrition-form select {
+  margin-bottom: 15px;
+}
+.nutrition-title{
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.form-control, .form-select{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.save-btn{
+    background-color: #ffcc00;
+    color: black;
+    padding: 13px 25px;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+    margin-top: 11px;
+    cursor: pointer;
+
+}
+.saved-item{
+    margin-top: 16px;
+    font-size: 15px;
+}
+.nutrition-form {
+  width: 65%;
+  background:rgba(255,255,255,0.75);
+  backdrop-filter: blur(9px);
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 450px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  ;
+}
+
+
+@media (max-width: 1024px) {
+  .nutrition-form-card {
+    width: 70%; 
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nutrition-container {
+    padding: 20px; 
+  }
+
+  .nutrition-form-card {
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .nutrition-form {
+    width: 100%; 
+    max-width: none;
+    padding: 20px;
+  }
+
+  .save-btn {
+    width: 100%; 
+  }
+
+  .saved-item {
+    font-size: 14px; 
+  }
+}
+
+
+

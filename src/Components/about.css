@@ -1,0 +1,27 @@
+.about-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(0,0,0,0.9) 30%, rgba(0,0,0,0.2) 100%), 
+              url('../assets/girl-3253532_1280.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 10%; 
+}
+
+.about-text-side h1 {
+  color: #FFCC00;
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.about-text-side p {
+  color: white;
+  max-width: 500px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  border-left: 4px solid #FFCC00;
+  padding-left: 20px;
+}
