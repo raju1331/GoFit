@@ -68,3 +68,39 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+# GoFit Fitness Tracker 🏋️‍♀️
+
+A beginner‑built React app for tracking **Nutrition, Activity, and Vitals**, with a central **Dashboard** that visualizes health analytics using Chart.js.
+
+## ✨ Features
+- **Nutrition Page**: Log calories and macros (Protein, Fat, Carbs).
+- **Activity Page**: Track workouts, duration, calories burned, and steps.
+- **Vitals Page**: Record heart rate, blood pressure, and temperature.
+- **Dashboard**:
+  - Heart Rate History (Line chart)
+  - Steps Trend (Line chart)
+  - Daily Calorie Balance (Bar chart)
+  - Nutrition Macros (Pie chart)
+  - Summary cards for latest vitals and total entries
+  - Reset Data button to clear localStorage
+
+
+
+## 🛠️ Tech Stack
+- **React** (functional components, hooks)
+- **Chart.js** (data visualization)
+- **Bootstrap / CSS Grid / Flexbox** (responsive design)
+- **localStorage** (persistent data storage)
+
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/GoFit.git
+cd GoFit
+
